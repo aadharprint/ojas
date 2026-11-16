@@ -1,0 +1,16 @@
+{
+  "rewrites": [
+    {
+      "source": "/portal",
+      "destination": "/pages/portal.html"
+    },
+    {
+      "source": "/verify/:id",
+      "destination": "/pages/verify.html?id=:id"
+    },
+    {
+      "source": "/verify",
+      "destination": "/pages/verify.html"
+    }
+  ]
+}
