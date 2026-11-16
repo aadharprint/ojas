@@ -1,4 +1,4 @@
-import https from 'https';
+import https from 'https'; 
 
 function fetchUrlBuffer(urlStr, maxRedirects = 5) {
     return new Promise((resolve, reject) => {
